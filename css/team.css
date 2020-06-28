@@ -1,0 +1,99 @@
+
+.team-section
+{
+  background: url(../img/bg5.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+  text-align: center;
+}
+
+.inner-width
+{
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+  color: #EAFDE6;
+  overflow: hidden;
+}
+
+.team-section h1
+{
+  font-size: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 4px solid;
+  padding-bottom: 100px;
+}
+
+.pe
+{
+  float: left;
+  width: calc(100% / 3);
+  overflow: hidden;
+  padding: 40px 0;
+  transition: 0.4s;
+}
+
+.pe:hover
+{
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.pe img
+{
+  border-radius: 20px;
+  width: 120px;
+  height: 120px;
+}
+
+.p-name
+{
+  margin: 16px 0;
+  text-transform: uppercase;
+}
+
+.p-des
+{
+  font-style: italic;
+  color: #EAFDE6;
+}
+
+.p-sm
+{
+  margin-top: 12px;
+}
+
+.p-sm a
+{
+  margin: 0 4px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  transition: 0.4s;
+}
+
+.p-sm a:hover
+{
+  transform: scale(1.3);
+}
+.p-sm a i
+{
+  color: #333;
+  line-height: 30px;
+}
+
+@media screen and (max-width:600px) 
+{
+  .pe
+  {
+    width: 100%;
+  }
+}
+
+.colorb
+{
+    margin-top: 20%;
+    color: white;
+}
