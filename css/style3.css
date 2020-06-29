@@ -1,0 +1,31 @@
+.formu
+{
+    background: url(../img/bg6.png);
+    background-size: cover;
+    background-position: cover;
+    height: 1000px;
+}
+
+.centrar3
+{
+    margin-left: 34%;
+    padding-top: 10%;
+}
+
+.formu h1
+{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    font-size: 30px;
+	top: 90px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.borde
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: white;
+}

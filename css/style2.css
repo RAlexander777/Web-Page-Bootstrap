@@ -1,0 +1,28 @@
+.login
+{
+    background: url(../img/bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+
+.centrar2
+{
+    position: absolute;
+    font-size: 30px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.borde
+{
+    border: 1px solid rgba(153, 178, 183, 0.808);
+    border-radius: 10px;
+    position: absolute;
+    padding: 3em;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+	transform: translate(-50%, -50%);
+}
